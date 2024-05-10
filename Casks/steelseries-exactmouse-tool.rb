@@ -2,9 +2,7 @@ cask "steelseries-exactmouse-tool" do
   version "1.0"
   sha256 "70f0b344d57b6d1405dd36b9bb5c14fb0d1fbb1397853a12c1b83a95652ba78b"
 
-  url "https://github.com/LukasKnuth/homebrew-tap.git/bin/steelseries-exactmouse-tool-#{version}.dmg",
-      verified: "github.com/LukasKnuth/homebrew-tap.git/",
-      branch:   "main"
+  url "../bin/steelseries-exactmouse-tool-#{version}.dmg"
   name "SteelSeries ExactMouse Tool"
   desc "Truly removes mouse acceleration in Apple system"
   homepage "https://steelseries.com/downloads"
