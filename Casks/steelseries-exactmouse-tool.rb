@@ -2,7 +2,7 @@ cask "steelseries-exactmouse-tool" do
   sha256 :no_check
 
   url do
-    URI.join('file://', __dir__, 'bin/steelseries-exactmouse-tool-1.0.dmg')
+    URI.join("file://", __dir__, "bin/steelseries-exactmouse-tool-1.0.dmg")
   end
   name "SteelSeries ExactMouse Tool"
   desc "Truly removes mouse acceleration in Apple system"
