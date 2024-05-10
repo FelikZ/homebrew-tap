@@ -1,6 +1,6 @@
 cask "steelseries-exactmouse-tool" do
   version "1.0"
-  sha256 "70f0b344d57b6d1405dd36b9bb5c14fb0d1fbb1397853a12c1b83a95652ba78b"
+  sha256 :no_check
 
   url "https://github.com/LukasKnuth/homebrew-tap.git/bin/steelseries-exactmouse-tool.dmg",
       verified: "github.com/LukasKnuth/homebrew-tap.git/",
