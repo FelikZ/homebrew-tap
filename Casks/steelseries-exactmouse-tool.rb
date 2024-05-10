@@ -1,4 +1,5 @@
 cask "steelseries-exactmouse-tool" do
+  version: "1.0"
   sha256 :no_check
 
   url do
