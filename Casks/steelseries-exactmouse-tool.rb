@@ -1,8 +1,9 @@
 cask "steelseries-exactmouse-tool" do
-  version "1.0"
-  sha256 "70f0b344d57b6d1405dd36b9bb5c14fb0d1fbb1397853a12c1b83a95652ba78b"
+  sha256 :no_check
 
-  url "file://../bin/steelseries-exactmouse-tool-#{version}.dmg"
+  url do
+    URI.join('file://', __dir__, 'bin/steelseries-exactmouse-tool-1.0.dmg')
+  end
   name "SteelSeries ExactMouse Tool"
   desc "Truly removes mouse acceleration in Apple system"
   homepage "https://steelseries.com/downloads"
