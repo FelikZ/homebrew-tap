@@ -4,9 +4,8 @@ This contains some tools that I need on my macOS machine, which aren't in the of
 
 ## How do I install these formulae?
 
-`brew install lukasknuth/tap/<formula>`
-
-Or `brew tap lukasknuth/tap` and then `brew install <formula>`.
+SteelSeries Exactmouse Tool via Homebrew (tap / ask)
+`brew install --cask "felikz/tap/steelseries-exactmouse-tool"`
 
 ## Documentation
 
